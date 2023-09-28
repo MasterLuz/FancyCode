@@ -9,4 +9,4 @@ file(GLOB_RECURSE SOURCES
 
 add_library(cpp20 STATIC ${SOURCES})
 
-target_include_directories(cpp20 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/public)
+target_include_directories(cpp20 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/public/cpp20)
